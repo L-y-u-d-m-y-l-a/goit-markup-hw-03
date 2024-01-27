@@ -344,15 +344,16 @@ img {
 
 /*======Footer=====*/
 
-.footer-section {
-    background-color: #2e2f42;
-    flex-shrink: 0;
-    
-}
 
-.footer-container {
+.footer {
+    background-color: #2e2f42;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     padding: 100px 0;
 }
+
+
 
 .footer-logo {
     color: #4D5AE5;
