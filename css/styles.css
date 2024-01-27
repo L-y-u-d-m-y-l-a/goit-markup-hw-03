@@ -31,7 +31,7 @@ p {
     margin: 0 auto;
 }
 
-.img {
+img {
     width: 100%;
     display: block;
 }
@@ -347,8 +347,11 @@ p {
 .footer-section {
     background-color: #2e2f42;
     flex-shrink: 0;
-    padding: 100px 0;
     
+}
+
+.footer-container {
+    padding: 100px 0;
 }
 
 .footer-logo {
